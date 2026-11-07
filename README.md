@@ -10,16 +10,12 @@ This project analyses Nepal's IMF Country Report No. 25/285 (2025) using Large L
 2. **Mistral-7B-Instruct-v0.3:** Evaluator LLM for checking accuracy, completeness and consistency.
 3. **all-MiniLM-L6-v2:** Embedding model for FAISS-based document retrieval.
 
-## Technologies
-Python, Google Colab (NVIDIA A100 GPU), Hugging Face Transformers, PyMuPDF, FAISS, Pandas and Matplotlib.
-
 ## How to Run
 1. Open the notebook in Google Colab.
 2. Select an A100 GPU.
 3. Upload the Nepal IMF PDF.
 4. Run all cells sequentially.
 
-**No API keys required.**
 
 ## Results
 - 9 section summaries
